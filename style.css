@@ -112,7 +112,18 @@ input[type=text] {
 
 .imgbanbtn-prev {
     left: 5px;
+    background-image: url("photos/arrow.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.imgbanbtn-next {
+    right: 5px;
+    background-image: url("photos/next.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #logo {
     width: 100px;
